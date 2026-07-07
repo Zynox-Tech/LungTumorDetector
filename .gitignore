@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Model weights (served from HuggingFace — not stored in repo)
+*.h5
+*.keras
+*.pth
+*.pt
